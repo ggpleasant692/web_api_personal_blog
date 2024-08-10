@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Blog</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Personal Blog</h1>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Create a New Blog Post</h2>
+            <form id="blogForm" action="submit.php" method="post">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="blogTitle">Blog Title:</label>
+                    <input type="text" id="blogTitle" name="blogTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="blogContent">Blog Content:</label>
+                    <textarea id="blogContent" name="blogContent" rows="8" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Personal Blog. All rights reserved.</p>
+    </footer>
+    <script src="./assets/js/logic.js"></script>
+</body>
+</html>
