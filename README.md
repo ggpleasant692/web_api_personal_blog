@@ -42,3 +42,15 @@ Navigating between the form page and the posts page sometimes led to losing form
 
 **Resolution:**
 To manage smooth navigation, I used window.location to redirect users appropriately upon form submission. I ensured data persistence by correctly handling localStorage operations so that users would not lose their entered data upon returning to the form page.
+
+
+ ### Live Demo
+ https://ggpleasant692.github.io/web_api_personal_blog/
+
+ ### Screenshots
+ ```md
+ ![alt text](assets/images/screenshot.png)
+ ```
+
+
+ ![alt text](assets/images/screenshot.png)
